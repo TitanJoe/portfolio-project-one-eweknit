@@ -6,10 +6,10 @@ I got the idea for my project from my brother Karol who runs an ecommerce clothi
 This project included 4 pages, index.html (The home page), gallery.html, about.html and contact.html.<br>
 <br>
 <!-- Project V1 Balsamiq wireframes -->
-<img src="assets/images/readme-images/project-vone-html-page-images/index.html.png" alt="Balsamiq Wireframe of the Project V1 Homepage" width="24%">
-<img src="assets/images/readme-images/project-vone-html-page-images/gallery.html.png" alt="Balsamiq Wireframe of the Project V1 Gallery page" width="24%">
-<img src="assets/images/readme-images/project-vone-html-page-images/about.html.png" alt="Balsamiq Wireframe of the Project V1 About us page" width="24%">
-<img src="assets/images/readme-images/project-vone-html-page-images/contact.html.png" alt="Balsamiq Wireframe of the Project V1 Contact page" width="24%"><br>
+<img src="assets/images/readme-images/project-vone-html-page-images/index.html.png" alt="Balsamiq Wireframe of the Project V1 Homepage" width="23%">
+<img src="assets/images/readme-images/project-vone-html-page-images/gallery.html.png" alt="Balsamiq Wireframe of the Project V1 Gallery page" width="23%">
+<img src="assets/images/readme-images/project-vone-html-page-images/about.html.png" alt="Balsamiq Wireframe of the Project V1 About us page" width="23%">
+<img src="assets/images/readme-images/project-vone-html-page-images/contact.html.png" alt="Balsamiq Wireframe of the Project V1 Contact page" width="23%"><br>
 *Order of images: index.html, gallery.html, about.html, contact.html*<br>
 <br>
 My mentor told me that it was ok to use Karols brand, sugested I prepare all my text and images before I begin coding and sugested improvements for user experience.<br>
@@ -18,11 +18,11 @@ These improvements that he sugested included removing the *See our stock* link a
 Lastly, I gathered together all the images I would use for my project, simplified some of the pages and optimised the wire frames for screens 1920x1080px, the resolution of my own monitor.<br>
 <br>
 <!-- Project V2 Balsamiq wireframes -->
-<img src="assets/images/readme-images/project-vtwo-html-page-images/index.html.png" alt="Balsamiq Wireframe of the Project V2 Homepage" width="19%">
-<img src="assets/images/readme-images/project-vtwo-html-page-images/gallery.html.png" alt="Balsamiq Wireframe of the The Project V2 Gallery page" width="19%">
-<img src="assets/images/readme-images/project-vtwo-html-page-images/about.html.png" alt="Balsamiq Wireframe of the The Project V2 About page" width="19%">
-<img src="assets/images/readme-images/project-vtwo-html-page-images/contact.html.png" alt="Balsamiq Wireframe of the Project V2 Contact page" width="19%">
-<img src="assets/images/readme-images/project-vtwo-html-page-images/submit-redirect.html.png" alt="Balsamiq Wireframe of the Project V2 Submit redirect page" width="19%"><br>
+<img src="assets/images/readme-images/project-vtwo-html-page-images/index.html.png" alt="Balsamiq Wireframe of the Project V2 Homepage" width="18%">
+<img src="assets/images/readme-images/project-vtwo-html-page-images/gallery.html.png" alt="Balsamiq Wireframe of the The Project V2 Gallery page" width="18%">
+<img src="assets/images/readme-images/project-vtwo-html-page-images/about.html.png" alt="Balsamiq Wireframe of the The Project V2 About page" width="18%">
+<img src="assets/images/readme-images/project-vtwo-html-page-images/contact.html.png" alt="Balsamiq Wireframe of the Project V2 Contact page" width="18%">
+<img src="assets/images/readme-images/project-vtwo-html-page-images/submit-redirect.html.png" alt="Balsamiq Wireframe of the Project V2 Submit redirect page" width="18%"><br>
 *Order of images: index.html, gallery.html, about.html, contact.html, submit-redirect.html*<br>
 <br>
 I saved this again but as Project V2 so I could have both Project V1 and Project V2 for historical refrence.
