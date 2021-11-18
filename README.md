@@ -5,6 +5,7 @@ I got the idea for my project from my brother Karol who runs an ecommerce clothi
 <br>
 This project included 4 pages, index.html (The home page), gallery.html, about.html and contact.html.<br>
 <br>
+<!-- Project V1 Balsamiq wireframes -->
 <img src="assets/images/readme-images/project-vone-html-page-images/index.html.png" alt="Balsamiq Wireframe of the Project V1 Homepage" width="24%">
 <img src="assets/images/readme-images/project-vone-html-page-images/gallery.html.png" alt="Balsamiq Wireframe of the Project V1 Gallery page" width="24%">
 <img src="assets/images/readme-images/project-vone-html-page-images/about.html.png" alt="Balsamiq Wireframe of the Project V1 About us page" width="24%">
@@ -16,6 +17,7 @@ These improvements that he sugested included removing the *See our stock* link a
 <br>
 Lastly, I gathered together all the images I would use for my project, simplified some of the pages and optimised the wire frames for screens 1920x1080px, the resolution of my own monitor.<br>
 <br>
+<!-- Project V2 Balsamiq wireframes -->
 <img src="assets/images/readme-images/project-vtwo-html-page-images/index.html.png" alt="Balsamiq Wireframe of the Project V2 Homepage" width="19%">
 <img src="assets/images/readme-images/project-vtwo-html-page-images/gallery.html.png" alt="Balsamiq Wireframe of the The Project V2 Gallery page" width="19%">
 <img src="assets/images/readme-images/project-vtwo-html-page-images/about.html.png" alt="Balsamiq Wireframe of the The Project V2 About page" width="19%">
