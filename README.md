@@ -1,7 +1,7 @@
 *This project was started on the 15/11/2021. My deadline was the 30/11/2021.*
 
 # Project History up to the 18/11/2021
-I got the idea for my project from my brother Karol who runs an ecommerce clothing brand called Eweknit. He was joking me quite often that I could build a webside for him. I decided that I would ask my mentor if I could base my project on Karols brand with his permission. After I recived Karols permission I then went and created Project V1 in Balsamiq Wireframes to present to my mentor.<br>
+I got the idea for my project from my brother Karol who runs an ecommerce clothing brand called Eweknit. He was joking me quite often that I could build a webside for him. I decided that I would ask my mentor Rohit if I could base my project on Karols brand with his permission. After I recived Karols permission I then went and created Project V1 in Balsamiq Wireframes to present to my mentor.<br>
 <br>
 This project included 4 pages, index.html (The home page), gallery.html, about.html and contact.html.<br>
 *(Images to be added.)*<br>
