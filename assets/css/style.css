@@ -42,14 +42,10 @@ nav li {
     margin: 35px 0 0 20px;
 }
 
-/* all page sections */
-section{
-    margin: 150px 20% 100px 20%;
-}
-
 /* index page section */
 #index-page-section {
     text-align: center;
+    margin: 150px 20% 100px 20%;
 }
 
 #index-page-section img {
@@ -69,6 +65,59 @@ section{
     margin: 30px auto 0 auto;
     width: 600px;
     font-size: 20px;
+}
+
+/* gallery page section */
+#gallery-page-section {
+    margin-top: 75px;
+}
+
+#gallery-page-section div {
+    display: inline-block;
+    width: 24.7%;
+    text-align: center;
+}
+
+/* about page section */
+#about-page-section {
+    margin: 70px 0 70px 0;
+    text-align: center;
+}
+
+#about-page-section h2 {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+#about-page-section p {
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 800px;
+    font-size: 20px;
+}
+
+#about-page-section img {
+    position: fixed;
+    bottom: 80px;
+}
+
+#joseph-feeding-cows-image {
+    width: 375px;
+    height: 375px;
+    left: 10px;
+    margin-bottom: 7px;
+}
+
+#eweknit-family-photo {
+    width: 675px;
+    height: 400px;
+    left: 415px;
+}
+
+#karol-before-mountain-image {
+    width: 400px;
+    height: 400px;
+    right: 10px;
 }
 
 /* footer */
