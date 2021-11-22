@@ -11,3 +11,8 @@ nav {
     width: 100%;
     background-color: black;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
