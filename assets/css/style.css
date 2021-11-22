@@ -28,7 +28,6 @@ nav > a {
 }
 
 nav li {
-    display: inline-block;
     float: right;
     font-size: 20px;
     font-family: 'Heebo', sans-serif;
@@ -41,4 +40,18 @@ footer {
     height: 70px;
     width: 100%;
     background-color: black;
+}
+
+footer ul {
+    margin-top: 17.5px;
+    text-align: center;
+}
+footer li {
+    display: inline;
+}
+
+footer i {
+    text-align: center;
+    font-size: 35px;
+    width: 20%;
 }
