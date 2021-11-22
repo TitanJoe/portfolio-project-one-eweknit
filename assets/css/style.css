@@ -25,8 +25,11 @@ nav > a {
     font-size: 25px;
 }
 
-.nav-links {
+nav li {
+    display: inline-block;
     float: right;
+    font-size: 20px;
+    margin: 35px 10px 0px 10px;
 }
 
 footer {
