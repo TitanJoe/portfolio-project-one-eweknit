@@ -18,6 +18,17 @@ a {
     text-transform: uppercase;
 }
 
+nav > a {
+    position: fixed;
+    top: 30px;
+    left: 40px;
+    font-size: 25px;
+}
+
+.nav-links {
+    float: right;
+}
+
 footer {
     position: absolute;
     bottom: 0;
