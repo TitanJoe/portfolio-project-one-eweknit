@@ -152,7 +152,11 @@ nav li {
 }
 
 /* submit redirect page */
-
+#submit-redirect-page {
+    text-align: center;
+    margin-top: 12%;
+    font-size: 30px;
+}
 
 /* footer */
 footer {
