@@ -36,33 +36,35 @@
             <!-- left-hand paragraph-->
             <p>For any queries or purchases please contact us here</p>
             <!-- right-hand form-->
-            <form action="submit-redirect.html">
-                <fieldset>
-                    <div id="fieldset-contents">
-                    <legend><h2>Contact us</h2></legend>
+            <form id="contact-form" action="submit-redirect.html">
+                <fieldset id="contact-fieldset">
+                    <legend>Contact us</legend>
+                    <div id="contact-fieldset-contents">
                     <!-- name input -->
-                    <label for="name">Name</label><br>
-                    <input id="name" type="text" required><br>
+                    <label for="form-name">Name</label><br>
+                    <input id="form-name" type="text" required><br>
                     <!-- email input -->
-                    <label for="email">Email</label><br>
-                    <input id="email" type="email" required><br>
+                    <label for="form-email">Email</label><br>
+                    <input id="form-email" type="email" required><br>
                     <!-- message textarea-->
-                    <label for="message">Message</label><br>
-                    <textarea id="message" placeholder="message"></textarea><br>
-                    <fieldset>
-                        <legend><h3>How did you hear about us?</h3></legend>
+                    <label for="form-message">Message</label><br>
+                    <textarea id="form-message" placeholder="message"></textarea><br>
+                    <fieldset id="contact-radio-fieldset">
+                        <legend>How did you hear about us?</legend>
+                        <div id="contact-radio-fieldset-contents">
                         <!-- facebook radio button -->
-                        <input type="radio" id="facebook" name="how-did-you-hear-about-us">
-                        <label for="facebook">Facebook</label><br>
+                        <input type="radio" id="form-radio-facebook" name="contact-fieldset-radios">
+                        <label for="form-radio-facebook">Facebook</label><br>
                         <!-- instagram radio button -->
-                        <input type="radio" id="instagram" name="how-did-you-hear-about-us">
-                        <label for="instagram">Instagram</label><br>
+                        <input type="radio" id="form-radio-instagram" name="contact-fieldset-radios">
+                        <label for="form-radio-instagram">Instagram</label><br>
                         <!-- other radio button -->
-                        <input type="radio" id="other" name="how-did-you-hear-about-us" checked>
-                        <label for="other">Other</label>
+                        <input type="radio" id="form-radio-other" name="contact-fieldset-radios" checked>
+                        <label for="form-radio-other">Other</label>
+                        </div>
                     </fieldset><br>
                     <!-- submit button-->
-                    <input type="submit">
+                    <input id="form-submit" type="submit">
                     </div>
                 </fieldset>
             </form>

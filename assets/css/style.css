@@ -1,3 +1,4 @@
+/* imported heebo font */
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 
 /* removes any browser margin or padding */
@@ -11,9 +12,11 @@ body {
     font-family: 'Heebo', sans-serif;
 }
 
+/* adds a margin top and bottom to push the sections from under the header and footer */
 section {
-    margin-bottom: 70px;
+    margin: 70px 0 70px 0;
 }
+
 /* sets the constant anchor theme */
 a {
     text-decoration: none;
@@ -78,7 +81,7 @@ nav li {
     margin-top: 5px;
 }
 
-#gallery-page-section div {
+.gallery-images {
     display: inline-block;
     width: 24.7%;
     text-align: center;
@@ -86,7 +89,6 @@ nav li {
 
 /* about page section */
 #about-page-section {
-    margin: 70px 0 70px 0;
     text-align: center;
 }
 
@@ -101,15 +103,7 @@ nav li {
     font-size: 20px;
 }
 
-#joseph-feeding-cows-image {
-    height: 400px;
-}
-
-#eweknit-family-photo {
-    height: 400px;
-}
-
-#karol-before-mountain-image {
+.about-images {
     height: 400px;
 }
 
@@ -119,13 +113,13 @@ nav li {
     padding: 200px 0 0 10%;
 }
 
-#contact-page-section form {
+#contact-form {
     display: inline-block;
     width: 50%;
     vertical-align: auto;
 }
 
-#contact-page-section form > fieldset {
+#contact-fieldset {
     margin: 40px 0 0 10%;
     width: 75%;
     height: 400px;
@@ -133,12 +127,12 @@ nav li {
     border-radius: 1%;
 }
 
-#contact-page-section form > fieldset > div > fieldset {
+#contact-sub-fieldset {
     border: black solid 1px;
     border-radius: 1%;
 }
 
-#fieldset-contents {
+#contact-fieldset-contents {
     margin-left: 15px;
     width: 300px;
     font-size: 17px;
@@ -178,7 +172,7 @@ footer i {
         width: 75%
     }
 
-    #contact-page-section form {
+    #contact-form {
         width: 75%
     }
 
@@ -190,7 +184,6 @@ footer i {
 @media screen and (max-width: 1550px) {
     #joseph-feeding-cows-image {
         position: fixed;
-        left: -500;
         visibility: hidden;
     }
 }
