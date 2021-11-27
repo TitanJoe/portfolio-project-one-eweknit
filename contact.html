@@ -1,91 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Eweknit clothing brand in Ireland for Farmers">
-        <meta name="keywords" content="Eweknit, clothing brand, Ireland, farmers">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <title>Contact us - Eweknit</title>
-    </head>
-    <body>
-        <header>
-            <!-- left-hand logo -->
-            <a href="index.html">Eweknit</a>
-            <!-- right-hand nav links -->
-            <nav>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eweknit clothing brand in Ireland for Farmers">
+    <meta name="keywords" content="Eweknit, clothing brand, Ireland, farmers">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Contact us - Eweknit</title>
+</head>
+
+<body>
+    <header>
+        <!-- left-hand logo -->
+        <a id="logo" href="index.html">Eweknit</a>
+        <!-- right-hand nav links -->
+        <nav>
             <ul>
                 <!-- the links are backward because they are floated right in the CSS-->
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About us</a>
-                    </li>
-                    <li>
-                        <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section id="contact-page-section">
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="about.html">About us</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contact-page-section">
+        <div id="contact-left-div">
             <!-- left-hand paragraph-->
             <p>For any queries or purchases please contact us here</p>
+        </div>
+        <div id="contact-right-div">
             <!-- right-hand form-->
             <form id="contact-form" action="submit-redirect.html">
-                <fieldset id="contact-fieldset">
+                <fieldset class="contact-borders" id="contact-fieldset">
                     <legend>Contact us</legend>
-                    <div id="contact-fieldset-contents">
                     <!-- name input -->
-                    <label for="form-name">Name</label><br>
-                    <input id="form-name" type="text" required><br>
+                    <label class="contact-fieldset-content" for="form-name">Name</label><br>
+                    <input class="contact-fieldset-content contact-borders" id="form-name" type="text" required><br>
                     <!-- email input -->
-                    <label for="form-email">Email</label><br>
-                    <input id="form-email" type="email" required><br>
+                    <label class="contact-fieldset-content" for="form-email">Email</label><br>
+                    <input class="contact-fieldset-content contact-borders" id="form-email" type="email" required><br>
                     <!-- message textarea-->
-                    <label for="form-message">Message</label><br>
-                    <textarea id="form-message" placeholder="message"></textarea><br>
-                    <fieldset id="contact-radio-fieldset">
+                    <label class="contact-fieldset-content" for="form-message">Message</label><br>
+                    <textarea class="contact-fieldset-content contact-borders" id="form-message"
+                        placeholder="message"></textarea><br>
+                    <fieldset class="contact-fieldset-content contact-borders" id="contact-radio-fieldset">
                         <legend>How did you hear about us?</legend>
-                        <div id="contact-radio-fieldset-contents">
                         <!-- facebook radio button -->
-                        <input type="radio" id="form-radio-facebook" name="contact-fieldset-radios">
+                        <input class="contact-subfieldset-content" type="radio" id="form-radio-facebook"
+                            name="contact-fieldset-radios">
                         <label for="form-radio-facebook">Facebook</label><br>
                         <!-- instagram radio button -->
-                        <input type="radio" id="form-radio-instagram" name="contact-fieldset-radios">
+                        <input class="contact-subfieldset-content" type="radio" id="form-radio-instagram"
+                            name="contact-fieldset-radios">
                         <label for="form-radio-instagram">Instagram</label><br>
                         <!-- other radio button -->
-                        <input type="radio" id="form-radio-other" name="contact-fieldset-radios" checked>
+                        <input class="contact-subfieldset-content" type="radio" id="form-radio-other"
+                            name="contact-fieldset-radios" checked>
                         <label for="form-radio-other">Other</label>
-                        </div>
                     </fieldset><br>
                     <!-- submit button-->
-                    <input id="form-submit" type="submit">
-                    </div>
+                    <input class="contact-fieldset-content" id="form-submit" type="submit">
                 </fieldset>
             </form>
-        </section>
-        <footer>
-           <ul>
-               <li>
-                   <!-- facebook interactive social media icon -->
-                   <a href="https://www.facebook.com/Eweknit/" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
-               </li>
-               <li>
-                   <!-- instagram interactive social media icon -->
-                   <a href="https://www.instagram.com/eweknitireland/?hl=en" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-               </li>
-               <li>
-                   <!-- youtube interactive social media icon -->
-                   <a href="https://www.youtube.com/channel/UC7f66pGEzN7ceOdzaU7z3Sg" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a>
-               </li>
-           </ul> 
-        </footer>
-        <!-- font awesome script -->
-        <script src="https://kit.fontawesome.com/cb4052d38c.js" crossorigin="anonymous"></script>
-    </body>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <!-- facebook interactive social media icon -->
+                <a href="https://www.facebook.com/Eweknit/" target="_blank" rel="noopener"><i
+                        class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <!-- instagram interactive social media icon -->
+                <a href="https://www.instagram.com/eweknitireland/?hl=en" target="_blank" rel="noopener"><i
+                        class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+                <!-- youtube interactive social media icon -->
+                <a href="https://www.youtube.com/channel/UC7f66pGEzN7ceOdzaU7z3Sg" target="_blank" rel="noopener"><i
+                        class="fab fa-youtube-square"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/cb4052d38c.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
