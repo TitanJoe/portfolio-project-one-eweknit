@@ -4,7 +4,7 @@ The Eweknit website is a place on the web for people who wish to learn more abou
 Users of the site will be able to learn more about the brand, view the stock and get in contact if they wish to do so.  
 The site is target towards farmers around the world who are passionate about farming and want to be comfortable and stylish while on the job.  
 <br>
-<img src=".docs/readme-images/am-i-responsive.png" alt="An image of the website from multiple different viewpoints" width="100%">
+<img src=".docs2/readme-images/am-i-responsive.png" alt="An image of the website from multiple different viewpoints" width="100%">
 
 ***
 
@@ -18,44 +18,44 @@ The site is target towards farmers around the world who are passionate about far
 + In the footer there is also social media links to the different social media platforms that eweknit is present on
 
     Header
-    <img src=".docs/readme-images/header.png" alt="An image of the header" width="100%">
+    <img src="assets/images/readme-images/header.png" alt="An image of the header" width="100%">
     Footer
-    <img src=".docs/readme-images/footer.png" alt="An image of the footer" width="100%">
+    <img src="assets/images/readme-images/footer.png" alt="An image of the footer" width="100%">
 
 ***
 
 ### The Homepage
 + This is the landing page for the customer 
 +It has a circlur Logo followed by a breif description of the brand
-<img src=".docs/readme-images/homepage.png" alt="An image of the homepage" width="100%">
+<img src="assets/images/readme-images/homepage.png" alt="An image of the homepage" width="100%">
 
 ***
 
 ### The Gallery page
 + This page showcases the stock that Eweknit has for sale
 + I made this page responsive using CSS width rules from 25% to 100% targeting each of the items depending on screen size
-<img src=".docs/readme-images/gallery-page.png" alt="An image of the gallery page" width="100%">
+<img src="assets/images/readme-images/gallery-page.png" alt="An image of the gallery page" width="100%">
 
 ***
 
 ### The About us page
 + This page give the background story of the brand Eweknit
 + It also hides some of the bottom images depending on screen size
-<img src=".docs/readme-images/about-us-page.png" alt="An image of about us page" width="100%">
+<img src="assets/images/readme-images/about-us-page.png" alt="An image of about us page" width="100%">
 
 ***
 
 ### The Contact page
 + This page allows the the user to contact Eweknit
 + The form will not submit if the user does not enter a name or an email, upon submitting a form you will be redirected to the submit redirect page. (see next section)
-<img src=".docs/readme-images/contact-page.png" alt="An image of the contact page" width="100%">
+<img src="assets/images/readme-images/contact-page.png" alt="An image of the contact page" width="100%">
 
 ***
 
 ### The Submit Redirect page
 + The user is redirected to this page when they have filled out the form
 + from here they may leave the site or return to one of the previous pages using the header
-<img src=".docs/readme-images/submit-redirect-page.png" alt="An image of the submit redirect page" width="100%">
+<img src="assets/images/readme-images/submit-redirect-page.png" alt="An image of the submit redirect page" width="100%">
 
 ***
 
@@ -79,7 +79,7 @@ I tested the header logo, the nav links and the footer social media icons to mak
 + I have made sure that the site is responsive to every size from 320px (Small mobiles) to 2560px (4K screens)
 + All images has alt attributes
 + I got a 98% grade when i ran my code through Lighthouse in devtools
-<img src=".docs/readme-images/lighthouse.jpeg" alt="An image of the lighthouse score" width="100%">
+<img src="assets/images/readme-images/lighthouse.jpeg" alt="An image of the lighthouse score" width="100%">
 
 ***
 
