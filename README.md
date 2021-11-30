@@ -4,7 +4,7 @@ The Eweknit website is a place on the web for people who wish to learn more abou
 Users of the site will be able to learn more about the brand, view the stock and get in contact if they wish to do so.  
 The site is target towards farmers around the world who are passionate about farming and want to be comfortable and stylish while on the job.  
 <br>
-<img src=".docs2/readme-images/am-i-responsive.png" alt="An image of the website from multiple different viewpoints" width="100%">
+<img src="assets/images/readme-images/am-i-responsive.png" alt="An image of the website from multiple different viewpoints" width="100%">
 
 ***
 
