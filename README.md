@@ -16,10 +16,11 @@ The site is target towards farmers around the world who are passionate about far
 + In the header there is the left-hand logo that is clickable to return you to the homepage
 + There is also nav links on the right of the header to the diffrent pages of the site
 + In the footer there is also social media links to the different social media platforms that eweknit is present on
-Header
-<img src=".docs/readme-images/header.png" alt="An image of the header" width="100%">
-Footer
-<img src=".docs/readme-images/footer.png" alt="An image of the footer" width="100%">
+
+    Header
+    <img src=".docs/readme-images/header.png" alt="An image of the header" width="100%">
+    Footer
+    <img src=".docs/readme-images/footer.png" alt="An image of the footer" width="100%">
 
 ***
 
