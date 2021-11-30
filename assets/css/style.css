@@ -8,19 +8,19 @@ body {
 }
 
 /* adds a bottom margin to push the sections above the footer */
-section {
-    margin: auto auto 70px auto;
+.margin-bottom {
+    margin-bottom: 70px;
 }
 
 /* sets the constant anchor theme */
-a {
+.anchor-theme {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
 }
 
 /* sets the header size and theme */
-header {
+.header-style {
     position: sticky;
     top: 0;
     width: 100%;
@@ -29,29 +29,28 @@ header {
 }
 
 /* sets the position and size of the logo */
-#logo {
+.header-left-hand-logo {
     position: relative;
     top: 35px;
     left: 40px;
     font-size: 25px;
-
 }
 
 /* sets the location of the nav links */
-nav ul {
+.header-right-hand-nav-links-list {
     float: right;
     list-style-type: none;
     margin: 10px 20px 0 0;
 }
 
-nav li {
+.header-right-hand-nav-links {
     display: block;
     float: right;
     margin-left: 10px;
 }
 
 /* index page section */
-#index-page-section img {
+#index-page-section-img {
     display: block;
     margin: 40px auto 0 auto;
     width: 300px;
@@ -59,13 +58,13 @@ nav li {
     border-radius: 50%;
 }
 
-#index-page-section h2 {
+#index-page-section-h2 {
     font-size: 40px;
     text-align: center;
     margin-top: 40px;
 }
 
-#index-page-section p {
+#index-page-section-p {
     font-size: 20px;
     text-align: center;
     display: block;
@@ -89,12 +88,12 @@ nav li {
     text-align: center;
 }
 
-#about-page-section h2 {
+#about-page-section-h2 {
     font-size: 35px;
     margin-top: 25px;
 }
 
-#about-page-section p {
+#about-page-section-p {
     display: block;
     margin: 20px 20% 120px 20%;
     font-size: 20px;
@@ -105,6 +104,10 @@ nav li {
 }
 
 /* contact page section */
+#contact-page-section {
+    height: 1050px;
+}
+
 #contact-left-div {
     font-size: 33px;
     width: 50%;
@@ -116,7 +119,7 @@ nav li {
     float: right;
 }
 
-#contact-left-div p {
+#contact-left-div-p {
     padding: 20% 50px 0 10%;
 }
 
@@ -126,7 +129,7 @@ nav li {
     margin-top: 50px
 }
 
-#contact-fieldset>legend {
+#contact-fieldset-legend {
     font-size: 40px;
 }
 
@@ -146,7 +149,7 @@ nav li {
 
 #form-submit {
     margin-top: 40px;
-    width: auto;
+    font-size: 30px;
     border-radius: 10%;
     color: white;
     background-color: black;
@@ -223,7 +226,7 @@ footer i {
 
 @media screen and (max-width: 1250px) {
 
-    #gallery-page-section div {
+    .gallery-images {
         width: 49%;
     }
 
@@ -255,30 +258,30 @@ footer i {
 }
 
 @media screen and (max-width: 600px) {
-    #logo {
+    .header-left-hand-logo {
         top: 10px;
         left: 10px;
     }
 
-    #index-page-section img {
+    #index-page-section-img {
         width: 50%;
         height: auto;
     }
 
-    nav ul {
+    .header-right-hand-nav-links-list {
         float: left;
         padding: 0;
     }
 
-    #index-page-section p {
+    #index-page-section-p {
         padding: 0 5% 0 5%;
     }
 
-    nav li {
+    .header-right-hand-nav-links {
         font-size: 13px;
     }
 
-    #gallery-page-section div {
+    .gallery-images {
         width: 100%;
     }
 
@@ -294,7 +297,7 @@ footer i {
         height: auto;
     }
 
-    #about-page-section p {
+    #about-page-section-p {
         margin: auto 5% 20px 5%;
     }
 
